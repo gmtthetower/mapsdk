@@ -1,0 +1,57 @@
+"Configs"
+{
+	"Games"
+	{
+		"Garry's Mod"
+		{
+			"GameDir"		"C:\Program Files (x86)\Steam\steamapps\common\GarrysMod\garrysmod"
+			"Hammer"
+			{
+				"GameData0"		"C:\Program Files (x86)\Steam\steamapps\common\GarrysMod\bin\garrysmod.fgd"
+				"TextureFormat"		"5"
+				"MapFormat"		"4"
+				"DefaultTextureScale"		"0.250000"
+				"DefaultLightmapScale"		"16"
+				"GameExe"		"C:\Program Files (x86)\Steam\steamapps\common\GarrysMod\hl2.exe"
+				"DefaultSolidEntity"		"func_detail"
+				"DefaultPointEntity"		"info_player_start"
+				"BSP"		"C:\Program Files (x86)\Steam\steamapps\common\GarrysMod\bin\win64\vbsp.exe"
+				"Vis"		"C:\Program Files (x86)\Steam\steamapps\common\GarrysMod\bin\win64\vvis.exe"
+				"Light"		"C:\Program Files (x86)\Steam\steamapps\common\GarrysMod\bin\win64\vrad.exe"
+				"GameExeDir"		"C:\Program Files (x86)\Steam\steamapps\common\GarrysMod"
+				"MapDir"		"C:\Program Files (x86)\Steam\steamapps\common\GarrysMod\sourcesdk_content\garrysmod\mapsrc"
+				"BSPDir"		"C:\Program Files (x86)\Steam\steamapps\common\GarrysMod\garrysmod\maps"
+				"CordonTexture"		"tools\toolsskybox"
+				"MaterialExcludeCount"		"0"
+				"Previous"		"1"
+			}
+		}
+		"The Lobby: Deluxe"
+		{
+			"GameDir"		"C:\Program Files (x86)\Steam\steamapps\common\GarrysMod\thelobby_mapsdk"
+			"Hammer"
+			{
+				"GameData0"		"C:\Program Files (x86)\Steam\steamapps\common\GarrysMod\bin\garrysmod.fgd"
+				"GameData1"		"C:\Program Files (x86)\Steam\steamapps\common\GarrysMod\bin\ballrace.fgd"
+				"GameData2"		"C:\Program Files (x86)\Steam\steamapps\common\GarrysMod\bin\gourmetrace.fgd"
+				"GameData3"		"C:\Program Files (x86)\Steam\steamapps\common\GarrysMod\bin\minigolf.fgd"
+				"TextureFormat"		"5"
+				"MapFormat"		"4"
+				"DefaultTextureScale"		"0.250000"
+				"DefaultLightmapScale"		"16"
+				"GameExe"		"C:\Program Files (x86)\Steam\steamapps\common\GarrysMod\hl2.exe"
+				"DefaultSolidEntity"		"func_detail"
+				"DefaultPointEntity"		"info_player_start"
+				"BSP"		"C:\Program Files (x86)\Steam\steamapps\common\GarrysMod\bin\vbsp.exe"
+				"Vis"		"C:\Program Files (x86)\Steam\steamapps\common\GarrysMod\bin\vvis.exe"
+				"Light"		"C:\Program Files (x86)\Steam\steamapps\common\GarrysMod\bin\vrad.exe"
+				"GameExeDir"		"C:\Program Files (x86)\Steam\steamapps\common\GarrysMod"
+				"MapDir"		"C:\Program Files (x86)\Steam\steamapps\common\GarrysMod\thelobby_mapsdk\mapsrc"
+				"BSPDir"		"C:\Program Files (x86)\Steam\steamapps\common\GarrysMod\thelobby_mapsdk\maps"
+				"CordonTexture"		"tools\toolsskybox"
+				"MaterialExcludeCount"		"0"
+			}
+		}
+	}
+	"SDKVersion"		"5"
+}

@@ -1,0 +1,11 @@
+{
+	"title"		:	"Your Custom Map",
+	"type"		:	"ServerContent",
+	"tags"		:	[ "cartoon", "fun", "roleplay" ],
+	"ignore"	:
+	[
+		"*.log",
+		"*.prt",
+		"*.vmx"
+	]
+}

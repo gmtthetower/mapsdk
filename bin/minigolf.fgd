@@ -1,0 +1,27 @@
+//-------------------------------------------------------------------------
+//
+// Game data for Minigolf
+// The Lobby: Deluxe (2024)
+//
+//-------------------------------------------------------------------------
+
+@include "base.fgd"
+
+@PointClass base(Angles) = golfwaiting : "Waiting start"
+[
+]
+
+@PointClass base(Angles) = golfstart : "Start"
+[
+	hole(integer) : "Hole Number" : 1 : "Hole num"
+	name(string) : "Hole Name" : "Awesome Level" : "Hole name"
+	par(integer) : "Par" : 1 : "Par count"
+]
+
+@SolidClass base(Targetname, Parentname, Angles) = golfhole : "Marks the finish of the level."
+[
+]
+
+@SolidClass base(Targetname, Parentname, Angles) = trigger_bounds : "Out of bounds."
+[
+]

@@ -1,0 +1,97 @@
+//-------------------------------------------------------------------------
+//
+// Game data for Ballrace
+// The Lobby: Deluxe (2024)
+//
+//-------------------------------------------------------------------------
+
+@include "base.fgd"
+
+@PointClass base(Targetname, Parentname, Angles) studioprop( "models/gmod_tower/bumper.mdl" ) = bumper : "Bumps the ball"
+[
+]
+
+@PointClass base(Targetname) = random_event : "Randomly chooses between 2 specified logic_relays."
+[
+	relaya(target_destination) : "Relay A" : "" : "The first logic_relay to choose between"
+	relayb(target_destination) : "Relay B" : "" : "The second logic_relay to choose between"
+]
+
+@PointClass base(Angles) studioprop( "models/props/cs_italy/bananna_bunch.mdl" ) = banana : "A banana, can be either 1 or 5 points. 5 points makes it a bunch."
+[
+	points(string) : "Points" : "1" : "Can be either 1 or 5, 5 points makes it a banana bunch"
+]
+
+@PointClass base(Angles) studioprop( "models/gmod_tower/button.mdl" ) line( 0 200 200, Targetname, Relay ) = button : "A button that can trigger relays."
+[
+	relay(target_destination) : "Relay" : "" : "The logic_relay to trigger"
+	arrow(choices) : "Show arrow?" : "1" =
+	[
+		1 : "Yes"
+		0 : "No"
+	]
+]
+
+@PointClass base(Targetname, Parentname, Angles) studioprop( "models/gmod_tower/arrow.mdl" ) = arrow : "An arrow."
+[
+]
+
+@PointClass base(Targetname, Angles) studioprop( "models/props_memories/memories_positon.mdl" ) sphere() = repeller : "A repeller/attractor."
+[
+	power(float) : "Power" : "1000" : "The amount of force it will attract/repel the ball with"
+	radius(float) : "Radius" : "256" : "The radius in which the repeller can detect a ball"
+	repel(choices) : "Attractor or repeller?" : "" =
+	[
+		1 : "Repeller"
+		0 : "Attractor"
+	]
+]
+
+@PointClass base(Targetname, Angles) studioprop( "" ) sphere() = block : "A block that only appears when you are within its radius."
+[
+	model(studio) : "Model" : "" : "The model of the block"
+	radius(float) : "Radius" : "80" : "The radius in which the block becomes visible"
+	skin(float) : "Skin" : "" : "The skin of the model"
+]
+
+@SolidClass base(Targetname, Parentname, EnableDisable) = trigger_fallout : "Kills the player on touch."
+[
+]
+
+@SolidClass base(Targetname, Parentname, Angles, EnableDisable) = trigger_nextlevel : "Marks the finish of a level, use trigger_endgame for the last level."
+[
+	bonustarget(target_destination) : "Bonus target" : "" : "Name of the bonus round spawn, after that goes to the level specified in the target key"
+	relay(target_destination) : "Relay" : "" : "Triggers a logic_relay on touch, for things like sparks or beams"
+	target(target_destination) : "Target" : "" : "The name of the info_target spawn of the next level."
+]
+
+@SolidClass base(Targetname, Parentname, Angles, EnableDisable) = trigger_endgame : "Marks the finish of the final level."
+[
+	relay(target_destination) : "Relay" : "" : "Triggers a logic_relay on touch, for things like sparks or beams"
+]
+
+@SolidClass base(Targetname, Parentname) = trigger_soundevent : "Plays a sound when you roll trough the trigger."
+[
+	sound(sound) : "Sound" : "" : "The sound to play when you roll trough this trigger"
+	relay(target_destination) : "Relay" : "" : "(Optional) A logic_relay to trigger when this trigger has been touched"
+]
+
+@SolidClass base(Targetname, Parentname) = trigger_effect : "Plays an effect at the player when you roll trough this trigger."
+[
+	effect(choices) : "Effect" : "confetti" =
+	[
+		"ball_transport" : "Ball transport"
+		"bananaeat" : "Banana eat"
+		"secret_banana" : "Color explosion"
+		"confetti" : "Confetti"
+		"arrow_remove" : "Red dots"
+		"click" : "Sparks"
+		"spawn" : "Spawn effect"
+		"ball_hit" : "Stars"
+	]
+]
+
+@PointClass studio("models/gmod_tower/ball.mdl")  = ball :
+	"Use this as a reference to how big the ball is."
+[
+]

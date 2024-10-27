@@ -1,0 +1,89 @@
+//-------------------------------------------------------------------------
+//
+// Game data for Gourmet Race
+// The Lobby: Deluxe (2024)
+// Written by KiwifruitDev
+//
+//-------------------------------------------------------------------------
+
+@include "base.fgd"
+
+@PointClass base(Targetname, Parentname, Angles) studioprop( "models/editor/playerstart.mdl" ) = gr_spawn_waiting : "Spawn position: Waiting room"
+[
+]
+
+@PointClass base(Targetname, Parentname, Angles) studioprop( "models/editor/playerstart.mdl" ) = gr_spawn_start : "Spawn position: Start line"
+[
+]
+
+@PointClass base(Targetname, Parentname, Angles) studioprop( "models/editor/playerstart.mdl" ) = gr_spawn_1st : "Spawn position: 1st"
+[
+]
+
+@PointClass base(Targetname, Parentname, Angles) studioprop( "models/editor/playerstart.mdl" ) = gr_spawn_1st : "Spawn position: 1st"
+[
+]
+
+@PointClass base(Targetname, Parentname, Angles) studioprop( "models/editor/playerstart.mdl" ) = gr_spawn_2nd : "Spawn position: 2nd"
+[
+]
+
+@PointClass base(Targetname, Parentname, Angles) studioprop( "models/editor/playerstart.mdl" ) = gr_spawn_3rd : "Spawn position: 3rd"
+[
+]
+
+@PointClass base(Targetname, Parentname, Angles) studioprop( "models/editor/playerstart.mdl" ) = gr_spawn_losers : "Spawn position: Losers"
+[
+]
+
+@PointClass base(Targetname, Parentname, Angles) studioprop( "models/apple.mdl" ) = food_apple : "Food: Apple"
+[
+]
+
+@PointClass base(Targetname, Parentname, Angles) studioprop( "models/food/burger.mdl" ) = food_burger : "Food: Burger"
+[
+]
+
+@PointClass base(Targetname, Parentname, Angles) studioprop( "models/items/medkit_medium_bday.mdl" ) = food_cake : "Food: Cake"
+[
+]
+
+@PointClass base(Targetname, Parentname, Angles) studioprop( "models/unconid/cupcake/cupcake.mdl" ) = food_cupcake : "Food: Cupcake"
+[
+]
+
+@PointClass base(Targetname, Parentname, Angles) studioprop( "models/legoj15/ssb4/items/itmmaximtomato.mdl" ) = food_maxtomato : "Food: Maxim Tomato"
+[
+]
+
+@PointClass base(Targetname, Parentname, Angles) studioprop( "models/bumpy/invincible_candy.mdl" ) = inv_candy : "Inventory item: Invincibility Candy"
+[
+]
+
+@PointClass base(Targetname, Parentname, Angles) studioprop( "models/legoj15/ssb3ds/items/carryitem.mdl" ) = mystery_sack : "Inventory item: Mystery Sack"
+[
+]
+
+@PointClass base(Targetname, Parentname, Angles) studioprop( "models/bumpy/blockstar.mdl" ) = star_block : "Star Block"
+[
+]
+
+@PointClass base(Targetname, Parentname, Angles) studioprop( "models/legoj15/ssb4/items/x-bomb.mdl" ) = weapon_bomb : "Weapon: Bomb"
+[
+]
+
+@PointClass base(Targetname, Parentname, Angles) studioprop( "models/legoj15/ssb4/items/boomerang.mdl" ) = weapon_boomerang : "Weapon: Boomerang"
+[
+]
+
+@PointClass base(Targetname, Parentname, Angles) studioprop( "models/legoj15/ssb4/items/freezer.mdl" ) = weapon_frosty : "Weapon: Frost"
+[
+]
+
+@PointClass base(Targetname, Parentname, Angles) studioprop( "models/legoj15/ssbb/items/itmunira.mdl" ) = weapon_spike : "Weapon: Spike"
+[
+]
+
+@PointClass base(Targetname, Parentname, Angles) studioprop( "models/gmod_tower/golftriangleflag.mdl" ) = finish_flag : "Finish Flag"
+[
+]

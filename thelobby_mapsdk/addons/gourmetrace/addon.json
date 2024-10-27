@@ -1,0 +1,11 @@
+{
+	"title"		:	"The Lobby: Gourmet Race",
+	"type"		:	"ServerContent",
+	"tags"		:	[ "cartoon", "fun", "roleplay" ],
+	"ignore"	:
+	[
+		"*.log",
+		"*.prt",
+		"*.vmx"
+	]
+}

@@ -1,0 +1,11 @@
+{
+	"title"		:	"The Lobby: Zombie Massacre Content",
+	"type"		:	"ServerContent",
+	"tags"		:	[ "cartoon", "fun", "roleplay" ],
+	"ignore"	:
+	[
+		"*.log",
+		"*.prt",
+		"*.vmx"
+	]
+}
