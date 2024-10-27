@@ -1,11 +1,12 @@
 {
-	"title"		:	"The Lobby: Ultimate Chimera Hunt Content",
+	"title"		:	"The Lobby: Virus Content",
 	"type"		:	"ServerContent",
 	"tags"		:	[ "cartoon", "fun", "roleplay" ],
 	"ignore"	:
 	[
 		"*.log",
 		"*.prt",
-		"*.vmx"
+		"*.vmx",
+		"*.vmf"
 	]
 }
